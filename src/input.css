@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.rounded-circle {
+  width: 200px;
+  height: 200px;
+  background-color: #3498db; /* Set your desired background color */
+  border-radius: 50%; /* Creates a rounded circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.curved-text {
+  transform: rotate(90deg); /* Rotate the text to make it curved */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  color: #fff; /* Set your desired text color */
+  font-size: 16px; /* Set your desired font size */
+  font-weight: bold; /* Set your desired font weight */
+}
